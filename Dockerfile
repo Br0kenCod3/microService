@@ -1,4 +1,4 @@
 FROM openjdk:19
-ADD target/storage.jar storage.jar
+ADD target/StorageApplication.jar StorageApplication.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/storage.jar"]
+ENTRYPOINT ["java","-jar","/StorageApplication.jar"]
